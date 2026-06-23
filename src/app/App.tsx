@@ -7,10 +7,16 @@
 // ============================================================================
 
 import { useEffect, useState } from "react";
-//import {
-//  ArrowRight, BookOpen, Check, ChevronDown, ChevronUp, Copy,
-//  Eye, Lock, RefreshCw, Send, Settings, Unlock, Wrench, X,
-//} from "lucide-react";
+import {
+  Eye,
+  Lock,
+  RefreshCw,
+  Send,
+  Settings,
+  Unlock,
+  Wrench,
+  X,
+} from "lucide-react";
 //import { motion, AnimatePresence } from "motion/react";
 
 import { useEISStore } from "./store/useEISStore";
