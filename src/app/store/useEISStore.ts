@@ -298,6 +298,4 @@ export const useEISStore = create<EISStore>((set, get) => ({
 }));
 
 // ── Re-export types + config needed by UI ────────────────────────────────────
-export { CS_LEVELS };
-export type { MachineState, Stage, TeacherMode, CSLevel, CTagKey };
-export type { SIDState, SIDReason, SIDSignals, Citation, FeedbackResult, EISSnapshot };
+export { useEISStore };
