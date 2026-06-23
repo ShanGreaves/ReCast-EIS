@@ -298,4 +298,4 @@ export const useEISStore = create<EISStore>((set, get) => ({
 }));
 
 // ── Re-export types + config needed by UI ────────────────────────────────────
-export { useEISStore };
+
