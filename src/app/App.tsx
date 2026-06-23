@@ -14,7 +14,7 @@ import { useEffect, useState } from "react";
 //import { motion, AnimatePresence } from "motion/react";
 
 import { useEISStore } from "./store/useEISStore";
-import type { Stage, CTagKey, CogLevel } from "./store/types";
+import type { Stage } from "./store/types";
 import { detectCogLevel } from "./store/analysis";
 
 // ════════════════════════════════════════════════════════════════════════════
